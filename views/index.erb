@@ -1,0 +1,19 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+<% (1..100).each do |i| %>
+<div class="row">
+<% (1..15).each do |j| %>
+<span contenteditable="true" class="cell">
+</span>
+<% end %>
+</div>
+<% end %>
+
+<script src="/js/ajax.js"></script>
+</body>
+</html>
